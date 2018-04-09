@@ -343,19 +343,25 @@
   
 
   
-  <div id="SOHUCS" sid="firstsuibi" ></div> 
-<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-    window.changyan.api.config({
-        appid: "cytyv1qjb",
-        conf: "f5bad14095060b0086877f8387432fce"
-    });
-</script>
-</script>
-  
 
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/04/07/firstsuibi/",
+  owner: 'lmmxm',
+  repo: 'lmmxm.github.io',
+  oauth: {
+    client_id: '233c03a5821181d15e0e',
+    client_secret: 'a6467fbd5981c5da330e9359e25c73b11aaac65e',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
